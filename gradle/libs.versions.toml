@@ -1,0 +1,23 @@
+[versions]
+kotlin = "2.0.0"
+ktor = "2.3.11"
+junit5 = "5.10.2"
+logback = "1.4.14"
+
+[libraries]
+junit-jupiter = { name = "junit-jupiter", group = "org.junit.jupiter", version.ref = "junit5" }
+ktor-server-core-jvm = { name = "ktor-server-core-jvm", group = "io.ktor", version.ref = "ktor" }
+ktor-server-netty-jvm = { name = "ktor-server-netty-jvm", group = "io.ktor", version.ref = "ktor" }
+ktor-server-tests-jvm = { name = "ktor-server-tests-jvm", group = "io.ktor", version.ref = "ktor" }
+kotlin-test-junit = { name = "kotlin-test-junit", group = "org.jetbrains.kotlin", version.ref = "kotlin" }
+logback-classic = { name = "logback-classic", group = "ch.qos.logback", version.ref = "logback" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
+
+[bundles]
+ktor = [
+    "ktor-server-core-jvm",
+    "ktor-server-netty-jvm",
+]
