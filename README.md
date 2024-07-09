@@ -1,8 +1,9 @@
 # 「Gradleまなびなおし」サンプルリポジトリ
 
-2024/07/08 [After Kotlin Fest 2024 LT Night](https://sansan.connpass.com/event/320810/)で発表したLTのサンプルリポジトリです
+2024/07/08 After Kotlin Fest 2024 LT Night で発表したLTのサンプルリポジトリです
 
-- Speaker Deck: [Gradleまなびなおし]()
+- Speaker Deck: [Gradleまなびなおし](https://speakerdeck.com/sansantech/sansan-20240708-4)
+- Connpass: [After Kotlin Fest 2024 LT Night](https://sansan.connpass.com/event/320810/)
 
 
 ```shell
